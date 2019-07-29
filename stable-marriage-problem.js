@@ -39,9 +39,10 @@ class Person {
 }
 
 /**
- *
+ * 每次传入一个已经设置 preferences 的 Person 实例数组，返回时每个实例已尽力配对上
  *
  * @param {Person[]} boys 对应车辆伴侣
+ * @returns {Person[]}
  */
 function stableMarriage(boys) {
 	const bachelors = [...boys]
@@ -74,7 +75,7 @@ function stableMarriage(boys) {
 /**
  * 普通洗牌
  *
- * @param {*} iterable
+ * @param {iterable} iterable
  * @returns {Array}
  */
 function shuffle(iterable) {
@@ -89,7 +90,7 @@ function shuffle(iterable) {
 /**
  * 非对称洗牌，随机删除一些元素
  *
- * @param {*} iterable
+ * @param {iterable} iterable
  * @returns {Array}
  */
 function asymmetricShuffle(iterable) {
@@ -100,72 +101,26 @@ function asymmetricShuffle(iterable) {
 		if (randomNum < 0.5) {
 			array.splice(i, 1)
 		} else {
+			// 加上引用标识，有引用则不会被清理掉
 			array[i].refered()
 		}
 	}
 	return array
 }
 
-function clearNotReferedPerson(array) {
-	for (let i = array.length - 1; i >= 0; i -= 1) {
-		if (!array[i].isRefered && array[i].preferences.length === 0) {
-			array.splice(i, 1)
+/**
+ * 清理无引用的 Person 实例
+ *
+ * @param {Person[]} personArray
+ * @returns
+ */
+function clearNotReferedPerson(personArray) {
+	for (let i = personArray.length - 1; i >= 0; i -= 1) {
+		if (!personArray[i].isRefered && personArray[i].preferences.length === 0) {
+			personArray.splice(i, 1)
 		}
 	}
-	return array
+	return personArray
 }
 
-// /**
-//  * @main
-//  */
-// ;(() => {
-// 	// boys 对应车辆伴侣，girls 对应车检器
-// 	const boys = [...'AB'].map((name) => new Person(name))
-// 	const girls = [...'ab'].map((name) => new Person(name))
-
-// 	// const boys = Array(1000)
-// 	// 	.fill(0)
-// 	// 	.map(() => new Person(~~(Math.random() * 100000)))
-// 	// const girls = Array(1000)
-// 	// 	.fill(0)
-// 	// 	.map(() => new Person(~~(Math.random() * 100000)))
-
-// 	// 各自对优先级进行排序
-// 	console.log('boys')
-// 	for (const boy of boys) {
-// 		boy.generatePreferences(asymmetricShuffle(girls))
-// 		console.log(`${boy.name}: ${boy.preferences.map((p) => p.name).join()}`)
-// 	}
-// 	console.log('\nGirls')
-// 	for (const girl of girls) {
-// 		girl.generatePreferences(asymmetricShuffle(boys))
-// 		console.log(`${girl.name}: ${girl.preferences.map((p) => p.name).join()}`)
-// 	}
-
-// 	clearNotReferedPerson(boys)
-// 	clearNotReferedPerson(girls)
-
-// 	console.log('\nboys')
-// 	for (const boy of boys) {
-// 		console.log(`${boy.name}`)
-// 	}
-// 	console.log('\nGirls')
-// 	for (const girl of girls) {
-// 		console.log(`${girl.name}`)
-// 	}
-
-// 	stableMarriage(boys)
-
-// 	// 打印结果
-// 	console.log('\nPairings')
-// 	for (const boy of boys) {
-// 		if (boy.fiance) {
-// 			console.log(`${boy.name}: ${boy.fiance.name}`)
-// 		}
-// 	}
-// })()
-
-/**
- * TODO: 两种设备的 sn 号，各自封装为数组
- */
 module.exports = { Person, stableMarriage, shuffle, clearNotReferedPerson }

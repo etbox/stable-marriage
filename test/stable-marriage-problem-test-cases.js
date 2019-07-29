@@ -551,6 +551,12 @@ const asymmetricCases = [
 ]
 
 /******************************************************************************/
+/**
+ * 对每个测试用例转换为 Person 实例，进行稳定配对后，核对结果是否与期望一致
+ *
+ * @param {Object} testCase
+ * @returns {Boolean}
+ */
 const stableMarriageTest = ({ boys, girls, pairings }) => {
 	// 这俩是 Person 实例的数组
 	const newBoys = Object.keys(boys).map((name) => new Person(name))
@@ -564,6 +570,7 @@ const stableMarriageTest = ({ boys, girls, pairings }) => {
 				// 根据 name 字符串匹配 Person 实例
 				if (girl.name === preference) {
 					boy.preferences.push(girl)
+					// 标记引用
 					girl.refered()
 				}
 			}
@@ -578,6 +585,7 @@ const stableMarriageTest = ({ boys, girls, pairings }) => {
 				// 根据 name 字符串匹配 Person 实例
 				if (boy.name === preference) {
 					girl.preferences.push(boy)
+					// 标记引用
 					boy.refered()
 				}
 			}
@@ -647,6 +655,7 @@ const referedTest = ({ boys, girls, expectation }) => {
 				// 根据 name 字符串匹配 Person 实例
 				if (girl.name === preference) {
 					boy.preferences.push(girl)
+					// 标记引用
 					girl.refered()
 				}
 			}
@@ -661,6 +670,7 @@ const referedTest = ({ boys, girls, expectation }) => {
 				// 根据 name 字符串匹配 Person 实例
 				if (boy.name === preference) {
 					girl.preferences.push(boy)
+					// 标记引用
 					boy.refered()
 				}
 			}
