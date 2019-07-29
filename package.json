@@ -12,7 +12,7 @@
 	},
 	"name": "stable-marriage",
 	"description": "A javascript implementation of stable marriage problem",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "stable-marriage-problem.js",
 	"directories": {
 		"test": "test"
