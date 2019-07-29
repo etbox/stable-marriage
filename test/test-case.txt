@@ -1,0 +1,953 @@
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a
+
+Girls
+a: A
+
+Pairings
+A: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a
+B: a
+
+Girls
+a: A,B
+
+Pairings
+A: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a
+B: a
+C: a
+
+Girls
+a: C,A,B
+
+Pairings
+C: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a
+B: a
+C: a
+D: a
+
+Girls
+a: A,D,B,C
+
+Pairings
+A: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a
+B: a
+C: a
+D: a
+E: a
+
+Girls
+a: B,C,A,D,E
+
+Pairings
+B: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a
+
+Girls
+a: A
+b: A
+
+Pairings
+A: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a
+B: a,b
+
+Girls
+a: B,A
+b: B,A
+
+Pairings
+A: b
+B: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,b
+B: b,a
+C: a,b
+
+Girls
+a: B,A,C
+b: C,B,A
+
+Pairings
+B: a
+C: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a
+B: b,a
+C: a,b
+D: a,b
+
+Girls
+a: C,D,B,A
+b: C,A,D,B
+
+Pairings
+A: b
+C: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,b
+B: b,a
+C: a,b
+D: b,a
+E: a,b
+
+Girls
+a: E,C,B,D,A
+b: C,E,B,A,D
+
+Pairings
+C: b
+E: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,a,b
+
+Girls
+a: A
+b: A
+c: A
+
+Pairings
+A: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,c,d,b
+
+Girls
+a: A
+b: A
+c: A
+d: A
+
+Pairings
+A: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: e,c,d,a,b
+
+Girls
+a: A
+b: A
+c: A
+d: A
+e: A
+
+Pairings
+A: e
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,a,d,b,e
+B: e,d,a,c,b
+
+Girls
+a: B,A
+b: B,A
+c: B,A
+d: B,A
+e: B,A
+
+Pairings
+A: c
+B: e
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,d,a,b
+B: a,c,b,d
+
+Girls
+a: B,A
+b: A,B
+c: A,B
+d: B,A
+
+Pairings
+A: c
+B: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,b,c
+B: c,a,b
+
+Girls
+a: A,B
+b: A,B
+c: A,B
+
+Pairings
+A: a
+B: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a,c
+B: a,b,c
+C: c,b,a
+
+Girls
+a: B,A,C
+b: B,A,C
+c: B,C,A
+
+Pairings
+A: b
+B: a
+C: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,b,a
+B: b,c,a
+C: a,b,c
+D: c,b,a
+
+Girls
+a: D,B,C,A
+b: A,B,D,C
+c: D,A,C,B
+
+Pairings
+A: b
+B: a
+D: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,b,a
+B: b,a,c
+C: a,c,b
+D: b,a,c
+E: c,b,a
+
+Girls
+a: A,D,E,C,B
+b: D,A,E,B,C
+c: B,D,E,A,C
+
+Pairings
+A: a
+B: c
+D: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: d,b,a,c
+B: c,b,d,a
+C: d,a,b,c
+
+Girls
+a: A,B,C
+b: C,B,A
+c: A,B,C
+d: C,B,A
+
+Pairings
+A: b
+B: c
+C: d
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: d,b,a,c,e
+B: a,b,e,c,d
+C: b,a,d,c,e
+
+Girls
+a: A,C,B
+b: A,C,B
+c: A,C,B
+d: C,B,A
+e: C,B,A
+
+Pairings
+A: d
+B: a
+C: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,b,a,d
+B: b,c,a,d
+C: b,a,c,d
+D: d,c,b,a
+
+Girls
+a: C,B,A,D
+b: A,D,C,B
+c: B,D,C,A
+d: A,B,C,D
+
+Pairings
+A: b
+B: c
+C: a
+D: d
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: d,b,a,c
+B: b,d,a,c
+C: b,c,d,a
+D: a,d,b,c
+E: a,d,c,b
+
+Girls
+a: A,D,E,B,C
+b: E,B,C,D,A
+c: D,E,C,A,B
+d: B,D,A,E,C
+
+Pairings
+A: d
+B: b
+D: a
+E: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,a,b,d,e
+B: d,c,a,b,e
+C: c,d,b,e,a
+D: c,d,e,b,a
+
+Girls
+a: C,D,A,B
+b: C,A,D,B
+c: D,C,B,A
+d: B,A,D,C
+e: D,B,C,A
+
+Pairings
+A: a
+B: d
+C: b
+D: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: e,a,d,c,b
+B: d,a,b,c,e
+C: d,a,e,b,c
+D: a,c,b,d,e
+E: c,b,e,d,a
+
+Girls
+a: B,D,E,A,C
+b: D,A,C,B,E
+c: C,B,D,E,A
+d: E,C,B,D,A
+e: C,B,D,E,A
+
+Pairings
+A: e
+B: a
+C: d
+D: c
+E: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a
+B: a
+C: a
+D: a
+E: a
+F: a
+
+Girls
+a: C,A,F,E,B,D
+
+Pairings
+C: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,b
+B: a,b
+C: b,a
+D: b,a
+E: a,b
+F: a,b
+
+Girls
+a: B,F,D,C,E,A
+b: A,E,C,F,B,D
+
+Pairings
+A: b
+B: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,b,c
+B: a,b,c
+C: c,a,b
+D: b,a,c
+E: a,b,c
+F: a,b,c
+
+Girls
+a: D,C,F,A,E,B
+b: C,F,B,E,A,D
+c: D,B,F,C,E,A
+
+Pairings
+B: c
+C: b
+D: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a,c,d
+B: d,b,c,a
+C: a,c,b,d
+D: b,c,d,a
+E: d,b,a,c
+F: c,b,d,a
+
+Girls
+a: C,B,E,D,A,F
+b: A,D,E,C,F,B
+c: D,E,F,C,A,B
+d: C,F,E,B,A,D
+
+Pairings
+A: b
+C: a
+D: c
+F: d
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,e,d,b,c
+B: e,c,b,a,d
+C: d,a,b,c,e
+D: d,c,e,b,a
+E: b,e,a,c,d
+F: e,d,a,b,c
+
+Girls
+a: B,D,C,F,A,E
+b: C,F,B,D,E,A
+c: A,D,F,C,E,B
+d: F,A,B,C,D,E
+e: D,A,F,C,B,E
+
+Pairings
+A: a
+B: b
+C: d
+D: c
+F: e
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a,d,e,f,c
+B: d,c,a,b,e,f
+C: c,e,b,a,d,f
+D: c,e,d,b,f,a
+E: f,a,d,c,b,e
+F: c,f,b,d,a,e
+
+Girls
+a: F,A,C,B,E,D
+b: F,B,D,C,A,E
+c: D,F,E,B,C,A
+d: E,C,D,A,F,B
+e: C,D,A,F,E,B
+f: E,F,A,D,B,C
+
+Pairings
+A: a
+B: d
+C: e
+D: c
+E: f
+F: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a,e,c,d,f
+B: a,e,f,d,c,b
+C: f,e,a,b,d,c
+D: f,a,d,b,c,e
+E: b,a,f,d,c,e
+
+Girls
+a: D,A,B,C,E
+b: B,D,C,E,A
+c: C,A,E,B,D
+d: D,E,B,C,A
+e: D,B,C,E,A
+f: A,E,D,C,B
+
+Pairings
+A: c
+B: e
+C: b
+D: a
+E: f
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: d,b,e,a,f,c
+B: f,b,d,e,a,c
+C: a,d,c,b,f,e
+D: e,f,d,b,a,c
+
+Girls
+a: C,A,D,B
+b: A,D,C,B
+c: A,B,C,D
+d: B,C,A,D
+e: C,D,A,B
+f: B,D,C,A
+
+Pairings
+A: d
+B: f
+C: a
+D: e
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,f,d,e,b,c
+B: b,f,d,e,c,a
+C: a,e,f,b,c,d
+
+Girls
+a: C,B,A
+b: A,C,B
+c: C,A,B
+d: B,A,C
+e: B,C,A
+f: C,A,B
+
+Pairings
+A: f
+B: b
+C: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,f,b,d,e,a
+B: c,a,e,b,d,f
+
+Girls
+a: B,A
+b: A,B
+c: B,A
+d: B,A
+e: B,A
+f: B,A
+
+Pairings
+A: f
+B: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: e,c,d,f,a,b
+
+Girls
+a: A
+b: A
+c: A
+d: A
+e: A
+f: A
+
+Pairings
+A: e
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,d,a,f,c,e,g
+
+Girls
+a: A
+b: A
+c: A
+d: A
+e: A
+f: A
+g: A
+
+Pairings
+A: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,g,e,a,f,c,d
+B: c,d,a,g,b,e,f
+
+Girls
+a: B,A
+b: B,A
+c: B,A
+d: A,B
+e: A,B
+f: A,B
+g: B,A
+
+Pairings
+A: b
+B: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: g,c,f,a,b,e,d
+B: a,c,g,f,e,b,d
+C: d,a,e,g,b,c,f
+
+Girls
+a: B,C,A
+b: C,A,B
+c: C,B,A
+d: A,B,C
+e: C,B,A
+f: C,A,B
+g: A,C,B
+
+Pairings
+A: g
+B: a
+C: d
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,g,f,b,d,e,c
+B: e,b,d,f,a,c,g
+C: a,c,b,f,g,e,d
+D: d,a,e,f,c,b,g
+
+Girls
+a: B,C,D,A
+b: B,D,C,A
+c: A,C,B,D
+d: C,A,D,B
+e: B,A,C,D
+f: B,A,C,D
+g: C,D,B,A
+
+Pairings
+A: g
+B: e
+C: a
+D: d
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: d,f,b,e,c,a,g
+B: c,e,f,a,d,g,b
+C: b,a,d,f,e,c,g
+D: b,d,e,g,c,a,f
+E: e,d,g,f,a,c,b
+
+Girls
+a: A,E,B,D,C
+b: A,D,B,E,C
+c: D,E,B,A,C
+d: D,E,B,A,C
+e: A,C,B,E,D
+f: D,B,E,A,C
+g: D,A,E,C,B
+
+Pairings
+A: d
+B: c
+C: a
+D: b
+E: e
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,f,d,g,b,c,e
+B: c,e,d,a,b,f,g
+C: d,g,f,c,b,a,e
+D: a,e,f,c,g,b,d
+E: c,b,g,f,a,d,e
+F: e,f,a,d,c,g,b
+
+Girls
+a: A,D,E,C,F,B
+b: F,C,D,A,B,E
+c: E,B,C,A,F,D
+d: C,F,A,B,D,E
+e: E,D,C,A,F,B
+f: F,C,E,D,A,B
+g: D,F,E,C,A,B
+
+Pairings
+A: a
+B: b
+C: d
+D: e
+E: c
+F: f
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,b,a,e,g,f,d
+B: f,g,e,c,d,b,a
+C: f,g,c,d,a,b,e
+D: f,b,a,c,g,d,e
+E: a,e,g,c,d,f,b
+F: a,g,b,f,d,c,e
+G: c,e,f,g,d,b,a
+
+Girls
+a: G,C,A,D,E,F,B
+b: D,A,C,G,F,B,E
+c: A,C,G,B,D,F,E
+d: C,F,E,G,B,A,D
+e: C,A,B,G,F,D,E
+f: B,E,G,C,F,A,D
+g: D,G,B,C,F,A,E
+
+Pairings
+A: c
+B: f
+C: g
+D: b
+E: a
+F: d
+G: e
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: g,b,c,e,f,d,a
+B: g,e,d,f,b,a,c
+C: e,a,g,f,c,b,d
+D: c,f,d,b,a,e,g
+E: c,b,f,a,g,d,e
+F: g,a,b,e,d,f,c
+G: b,g,e,c,f,a,d
+
+Girls
+a: B,C,A,D,F,G,E
+b: B,G,F,A,C,E,D
+c: B,A,F,G,D,C,E
+d: F,G,A,E,C,B,D
+e: F,C,D,G,A,B,E
+f: D,F,B,C,E,G,A
+g: F,A,G,B,E,D,C
+
+Pairings
+A: c
+B: d
+C: e
+D: f
+E: a
+F: g
+G: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: e,f,a,d,b,c
+B: b,c,e,a,f,d
+C: b,e,f,a,d,c
+D: e,d,b,a,c,f
+E: b,a,e,f,d,c
+F: a,d,c,b,e,f
+G: b,a,f,c,d,e
+
+Girls
+a: D,C,G,A,E,B,F
+b: G,F,C,A,D,B,E
+c: B,D,C,G,A,E,F
+d: A,C,D,F,G,B,E
+e: G,E,F,D,A,C,B
+f: B,E,F,G,D,A,C
+
+Pairings
+A: d
+B: c
+D: a
+E: e
+F: f
+G: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,e,a,c,d
+B: b,c,d,a,e
+C: e,b,a,d,c
+D: b,c,d,a,e
+E: d,c,e,a,b
+F: a,b,e,d,c
+G: e,d,b,c,a
+
+Girls
+a: E,G,A,F,C,D,B
+b: D,F,C,E,A,G,B
+c: D,E,B,G,F,C,A
+d: E,C,G,B,F,D,A
+e: B,C,D,E,A,F,G
+
+Pairings
+B: c
+C: e
+D: b
+E: d
+G: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a,d,c,b
+B: d,a,b,c
+C: d,a,c,b
+D: d,c,b,a
+E: b,c,a,d
+F: b,a,c,d
+G: a,d,b,c
+
+Girls
+a: B,E,F,A,C,D,G
+b: F,B,E,G,A,C,D
+c: G,F,C,A,B,D,E
+d: E,C,B,G,A,D,F
+
+Pairings
+B: a
+E: d
+F: b
+G: c
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: c,b,a
+B: c,b,a
+C: c,a,b
+D: c,b,a
+E: c,b,a
+F: a,c,b
+G: b,a,c
+
+Girls
+a: B,F,G,A,D,C,E
+b: G,F,E,C,D,B,A
+c: F,B,G,E,C,A,D
+
+Pairings
+B: c
+F: a
+G: b
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: b,a
+B: b,a
+C: a,b
+D: a,b
+E: a,b
+F: b,a
+G: b,a
+
+Girls
+a: G,F,A,E,B,D,C
+b: D,A,G,B,F,C,E
+
+Pairings
+D: b
+G: a
+
+DN012@DESKTOP-Q9L9PO2 MINGW64 /f/ETBox
+$ node "f:\ETBox\stable-marriage-problem.js"
+boys
+A: a
+B: a
+C: a
+D: a
+E: a
+F: a
+G: a
+
+Girls
+a: A,G,F,B,E,C,D
+
+Pairings
+A: a
